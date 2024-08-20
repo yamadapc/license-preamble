@@ -1,0 +1,10 @@
+[package]
+name = "license-preamble"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.16", features = ["derive"] }
+jwalk = "0.8.1"
+serde = "1.0.208"
+yaml-front-matter = "0.1.0"
